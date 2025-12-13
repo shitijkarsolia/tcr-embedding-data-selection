@@ -41,8 +41,13 @@ docs/          Phase-specific documentation
 - Length-stratified: 2 epochs, perplexity 3.68
 
 **Binding Prediction** 
-- Mean of AUC, accuracy, f1-macro, precision, recall
-- Standard deviation of AUC, accuracy, f1-macro, precision, recall
+| Metric (Mean +- Standard Deviation)   | TCR Split Strategy | Epitope Split Strategy |
+| :---      | :---:              | :---:                  |
+| AUC       | 0.9819 ± 0.0019    | 0.9718 ± 0.0078        |
+| Accuracy  | 0.9355 ± 0.0031    | 0.9229 ± 0.0100        |
+| Precision | 0.9350 ± 0.0060    | 0.9228 ± 0.0111        |
+| Recall    | 0.9363 ± 0.0086    | 0.9234 ± 0.0217        |
+| F1-Macro  | 0.9355 ± 0.0031    | 0.9229 ± 0.0100        |
 
 ## Environment
 
