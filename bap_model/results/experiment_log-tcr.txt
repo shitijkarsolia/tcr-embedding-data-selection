@@ -1,0 +1,645 @@
+Experiment started at Fri Dec 12 15:03:25 MST 2025
+=====================================
+Running: catELMo with tcr split
+=====================================
+
+============================================================
+Starting 5-repeat 5-fold CV for catELMo with tcr split
+============================================================
+Loading data from: /home/spraja14/caletmo_project/part_c/catELMo_combined.pkl
+Data loaded: 300016 samples
+
+============================================================
+REPEAT 1/5
+============================================================
+
+--- Processing Fold 1/5 ---
+
+=== Fold 1/5 - TCR split ===
+Train samples: 240079, Test samples: 59937
+Overlapping TCRs: 0
+Overlapping Epitopes: 735
+2025-12-12 15:07:44.839432: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-12-12 15:07:45.394046: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 79042 MB memory:  -> device: 0, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:41:00.0, compute capability: 8.0
+2025-12-12 15:07:49.487282: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+2025-12-12 15:07:50.658356: I tensorflow/stream_executor/cuda/cuda_blas.cc:1760] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+
+Epoch 00028: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00041: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00051: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+
+Epoch 00061: ReduceLROnPlateau reducing learning rate to 1.6000001778593287e-06.
+Epoch 00061: early stopping
+
+=== Fold 1 Results ===
+AUC:           0.9844
+Accuracy:      0.9412
+Precision:     0.9394
+Recall:        0.9431
+F1 (Macro):    0.9412
+
+--- Processing Fold 2/5 ---
+
+=== Fold 2/5 - TCR split ===
+Train samples: 239979, Test samples: 60037
+Overlapping TCRs: 0
+Overlapping Epitopes: 726
+
+Epoch 00036: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00046: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00056: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+Epoch 00056: early stopping
+
+=== Fold 2 Results ===
+AUC:           0.9806
+Accuracy:      0.9345
+Precision:     0.9457
+Recall:        0.9212
+F1 (Macro):    0.9345
+
+--- Processing Fold 3/5 ---
+
+=== Fold 3/5 - TCR split ===
+Train samples: 240129, Test samples: 59887
+Overlapping TCRs: 0
+Overlapping Epitopes: 710
+
+Epoch 00032: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00042: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00052: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+Epoch 00052: early stopping
+
+=== Fold 3 Results ===
+AUC:           0.9798
+Accuracy:      0.9304
+Precision:     0.9236
+Recall:        0.9380
+F1 (Macro):    0.9304
+
+--- Processing Fold 4/5 ---
+
+=== Fold 4/5 - TCR split ===
+Train samples: 239924, Test samples: 60092
+Overlapping TCRs: 0
+Overlapping Epitopes: 760
+
+Epoch 00028: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00038: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00048: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+
+Epoch 00058: ReduceLROnPlateau reducing learning rate to 1.6000001778593287e-06.
+Epoch 00060: early stopping
+
+=== Fold 4 Results ===
+AUC:           0.9848
+Accuracy:      0.9388
+Precision:     0.9297
+Recall:        0.9497
+F1 (Macro):    0.9388
+
+--- Processing Fold 5/5 ---
+
+=== Fold 5/5 - TCR split ===
+Train samples: 239953, Test samples: 60063
+Overlapping TCRs: 0
+Overlapping Epitopes: 721
+
+Epoch 00032: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00042: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00052: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+Epoch 00052: early stopping
+
+=== Fold 5 Results ===
+AUC:           0.9800
+Accuracy:      0.9320
+Precision:     0.9389
+Recall:        0.9246
+F1 (Macro):    0.9320
+  [Safety] Intermediate results saved to ./results/catELMo_tcr_intermediate.csv
+
+============================================================
+REPEAT 2/5
+============================================================
+
+--- Processing Fold 1/5 ---
+
+=== Fold 1/5 - TCR split ===
+Train samples: 239935, Test samples: 60081
+Overlapping TCRs: 0
+Overlapping Epitopes: 727
+
+Epoch 00030: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00040: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00050: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+Epoch 00050: early stopping
+
+=== Fold 1 Results ===
+AUC:           0.9798
+Accuracy:      0.9325
+Precision:     0.9376
+Recall:        0.9276
+F1 (Macro):    0.9325
+
+--- Processing Fold 2/5 ---
+
+=== Fold 2/5 - TCR split ===
+Train samples: 240000, Test samples: 60016
+Overlapping TCRs: 0
+Overlapping Epitopes: 730
+
+Epoch 00027: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00039: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00049: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+
+Epoch 00059: ReduceLROnPlateau reducing learning rate to 1.6000001778593287e-06.
+Epoch 00059: early stopping
+
+=== Fold 2 Results ===
+AUC:           0.9842
+Accuracy:      0.9381
+Precision:     0.9329
+Recall:        0.9443
+F1 (Macro):    0.9381
+
+--- Processing Fold 3/5 ---
+
+=== Fold 3/5 - TCR split ===
+Train samples: 240024, Test samples: 59992
+Overlapping TCRs: 0
+Overlapping Epitopes: 713
+
+Epoch 00034: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00044: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00054: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+Epoch 00054: early stopping
+
+=== Fold 3 Results ===
+AUC:           0.9808
+Accuracy:      0.9349
+Precision:     0.9406
+Recall:        0.9283
+F1 (Macro):    0.9349
+
+--- Processing Fold 4/5 ---
+
+=== Fold 4/5 - TCR split ===
+Train samples: 240050, Test samples: 59966
+Overlapping TCRs: 0
+Overlapping Epitopes: 741
+
+Epoch 00027: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00041: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00051: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+
+Epoch 00061: ReduceLROnPlateau reducing learning rate to 1.6000001778593287e-06.
+Epoch 00061: early stopping
+
+=== Fold 4 Results ===
+AUC:           0.9847
+Accuracy:      0.9409
+Precision:     0.9357
+Recall:        0.9462
+F1 (Macro):    0.9409
+
+--- Processing Fold 5/5 ---
+
+=== Fold 5/5 - TCR split ===
+Train samples: 240055, Test samples: 59961
+Overlapping TCRs: 0
+Overlapping Epitopes: 728
+
+Epoch 00036: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00046: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00056: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+Epoch 00056: early stopping
+
+=== Fold 5 Results ===
+AUC:           0.9815
+Accuracy:      0.9360
+Precision:     0.9338
+Recall:        0.9387
+F1 (Macro):    0.9360
+  [Safety] Intermediate results saved to ./results/catELMo_tcr_intermediate.csv
+
+============================================================
+REPEAT 3/5
+============================================================
+
+--- Processing Fold 1/5 ---
+
+=== Fold 1/5 - TCR split ===
+Train samples: 239910, Test samples: 60106
+Overlapping TCRs: 0
+Overlapping Epitopes: 750
+
+Epoch 00028: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00038: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00048: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+Epoch 00048: early stopping
+
+=== Fold 1 Results ===
+AUC:           0.9804
+Accuracy:      0.9312
+Precision:     0.9288
+Recall:        0.9342
+F1 (Macro):    0.9312
+
+--- Processing Fold 2/5 ---
+
+=== Fold 2/5 - TCR split ===
+Train samples: 240049, Test samples: 59967
+Overlapping TCRs: 0
+Overlapping Epitopes: 696
+
+Epoch 00027: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00037: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00047: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+Epoch 00047: early stopping
+
+=== Fold 2 Results ===
+AUC:           0.9803
+Accuracy:      0.9337
+Precision:     0.9399
+Recall:        0.9261
+F1 (Macro):    0.9337
+
+--- Processing Fold 3/5 ---
+
+=== Fold 3/5 - TCR split ===
+Train samples: 240091, Test samples: 59925
+Overlapping TCRs: 0
+Overlapping Epitopes: 723
+
+Epoch 00022: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00033: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00043: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+
+Epoch 00053: ReduceLROnPlateau reducing learning rate to 1.6000001778593287e-06.
+Epoch 00053: early stopping
+
+=== Fold 3 Results ===
+AUC:           0.9836
+Accuracy:      0.9364
+Precision:     0.9247
+Recall:        0.9499
+F1 (Macro):    0.9364
+
+--- Processing Fold 4/5 ---
+
+=== Fold 4/5 - TCR split ===
+Train samples: 240006, Test samples: 60010
+Overlapping TCRs: 0
+Overlapping Epitopes: 694
+
+Epoch 00029: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00041: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00051: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+
+Epoch 00061: ReduceLROnPlateau reducing learning rate to 1.6000001778593287e-06.
+Epoch 00061: early stopping
+
+=== Fold 4 Results ===
+AUC:           0.9847
+Accuracy:      0.9390
+Precision:     0.9316
+Recall:        0.9477
+F1 (Macro):    0.9390
+
+--- Processing Fold 5/5 ---
+
+=== Fold 5/5 - TCR split ===
+Train samples: 240008, Test samples: 60008
+Overlapping TCRs: 0
+Overlapping Epitopes: 779
+
+Epoch 00037: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00047: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00057: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+Epoch 00057: early stopping
+
+=== Fold 5 Results ===
+AUC:           0.9806
+Accuracy:      0.9360
+Precision:     0.9394
+Recall:        0.9327
+F1 (Macro):    0.9360
+  [Safety] Intermediate results saved to ./results/catELMo_tcr_intermediate.csv
+
+============================================================
+REPEAT 4/5
+============================================================
+
+--- Processing Fold 1/5 ---
+
+=== Fold 1/5 - TCR split ===
+Train samples: 240037, Test samples: 59979
+Overlapping TCRs: 0
+Overlapping Epitopes: 729
+
+Epoch 00040: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00050: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00060: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+Epoch 00060: early stopping
+
+=== Fold 1 Results ===
+AUC:           0.9830
+Accuracy:      0.9397
+Precision:     0.9482
+Recall:        0.9302
+F1 (Macro):    0.9397
+
+--- Processing Fold 2/5 ---
+
+=== Fold 2/5 - TCR split ===
+Train samples: 240004, Test samples: 60012
+Overlapping TCRs: 0
+Overlapping Epitopes: 714
+
+Epoch 00030: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00040: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00050: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+Epoch 00050: early stopping
+
+=== Fold 2 Results ===
+AUC:           0.9795
+Accuracy:      0.9318
+Precision:     0.9335
+Recall:        0.9303
+F1 (Macro):    0.9318
+
+--- Processing Fold 3/5 ---
+
+=== Fold 3/5 - TCR split ===
+Train samples: 240028, Test samples: 59988
+Overlapping TCRs: 0
+Overlapping Epitopes: 734
+
+Epoch 00025: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00039: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00049: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+
+Epoch 00059: ReduceLROnPlateau reducing learning rate to 1.6000001778593287e-06.
+Epoch 00059: early stopping
+
+=== Fold 3 Results ===
+AUC:           0.9846
+Accuracy:      0.9394
+Precision:     0.9314
+Recall:        0.9481
+F1 (Macro):    0.9394
+
+--- Processing Fold 4/5 ---
+
+=== Fold 4/5 - TCR split ===
+Train samples: 240004, Test samples: 60012
+Overlapping TCRs: 0
+Overlapping Epitopes: 745
+
+Epoch 00035: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00045: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00055: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+Epoch 00055: early stopping
+
+=== Fold 4 Results ===
+AUC:           0.9814
+Accuracy:      0.9336
+Precision:     0.9278
+Recall:        0.9406
+F1 (Macro):    0.9336
+
+--- Processing Fold 5/5 ---
+
+=== Fold 5/5 - TCR split ===
+Train samples: 239991, Test samples: 60025
+Overlapping TCRs: 0
+Overlapping Epitopes: 746
+
+Epoch 00038: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00048: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00058: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+Epoch 00058: early stopping
+
+=== Fold 5 Results ===
+AUC:           0.9813
+Accuracy:      0.9361
+Precision:     0.9395
+Recall:        0.9323
+F1 (Macro):    0.9361
+  [Safety] Intermediate results saved to ./results/catELMo_tcr_intermediate.csv
+
+============================================================
+REPEAT 5/5
+============================================================
+
+--- Processing Fold 1/5 ---
+
+=== Fold 1/5 - TCR split ===
+Train samples: 239925, Test samples: 60091
+Overlapping TCRs: 0
+Overlapping Epitopes: 735
+
+Epoch 00030: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00040: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00050: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+Epoch 00050: early stopping
+
+=== Fold 1 Results ===
+AUC:           0.9797
+Accuracy:      0.9327
+Precision:     0.9411
+Recall:        0.9231
+F1 (Macro):    0.9327
+
+--- Processing Fold 2/5 ---
+
+=== Fold 2/5 - TCR split ===
+Train samples: 239956, Test samples: 60060
+Overlapping TCRs: 0
+Overlapping Epitopes: 760
+
+Epoch 00030: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00040: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00050: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+Epoch 00050: early stopping
+
+=== Fold 2 Results ===
+AUC:           0.9800
+Accuracy:      0.9331
+Precision:     0.9346
+Recall:        0.9302
+F1 (Macro):    0.9331
+
+--- Processing Fold 3/5 ---
+
+=== Fold 3/5 - TCR split ===
+Train samples: 240080, Test samples: 59936
+Overlapping TCRs: 0
+Overlapping Epitopes: 710
+
+Epoch 00026: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00037: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00047: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+
+Epoch 00057: ReduceLROnPlateau reducing learning rate to 1.6000001778593287e-06.
+Epoch 00057: early stopping
+
+=== Fold 3 Results ===
+AUC:           0.9835
+Accuracy:      0.9365
+Precision:     0.9297
+Recall:        0.9448
+F1 (Macro):    0.9365
+
+--- Processing Fold 4/5 ---
+
+=== Fold 4/5 - TCR split ===
+Train samples: 240054, Test samples: 59962
+Overlapping TCRs: 0
+Overlapping Epitopes: 741
+
+Epoch 00038: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00048: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00058: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+Epoch 00058: early stopping
+
+=== Fold 4 Results ===
+AUC:           0.9816
+Accuracy:      0.9334
+Precision:     0.9295
+Recall:        0.9384
+F1 (Macro):    0.9334
+
+--- Processing Fold 5/5 ---
+
+=== Fold 5/5 - TCR split ===
+Train samples: 240049, Test samples: 59967
+Overlapping TCRs: 0
+Overlapping Epitopes: 730
+
+Epoch 00035: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00045: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00055: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+Epoch 00055: early stopping
+
+=== Fold 5 Results ===
+AUC:           0.9818
+Accuracy:      0.9361
+Precision:     0.9362
+Recall:        0.9362
+F1 (Macro):    0.9361
+  [Safety] Intermediate results saved to ./results/catELMo_tcr_intermediate.csv
+
+============================================================
+FINAL RESULTS: 5 repeats × 5 folds
+============================================================
+
+Metric                 Mean ± Std
+----------------------------------------
+auc                   0.9819 ± 0.0019
+accuracy              0.9355 ± 0.0031
+precision             0.9350 ± 0.0060
+recall                0.9363 ± 0.0086
+f1_macro              0.9355 ± 0.0031
+f1_micro              0.9355 ± 0.0031
+
+Results saved to: ./results/catELMo_tcr_results.csv
+
+=====================================
+Running: catELMo with epi split
+=====================================
+
+============================================================
+Starting 5-repeat 5-fold CV for catELMo with epi split
+============================================================
+Loading data from: /home/spraja14/caletmo_project/part_c/catELMo_combined.pkl
+Data loaded: 300016 samples
+
+============================================================
+REPEAT 1/5
+============================================================
+
+--- Processing Fold 1/5 ---
+
+=== Fold 1/5 - EPI split ===
+Train samples: 232636, Test samples: 67380
+Overlapping TCRs: 1795
+Overlapping Epitopes: 0
+2025-12-12 17:02:06.784398: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-12-12 17:02:07.543230: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 79042 MB memory:  -> device: 0, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:41:00.0, compute capability: 8.0
+2025-12-12 17:02:11.685193: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+2025-12-12 17:02:12.914924: I tensorflow/stream_executor/cuda/cuda_blas.cc:1760] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+
+Epoch 00034: ReduceLROnPlateau reducing learning rate to 0.00020000000949949026.
+
+Epoch 00044: ReduceLROnPlateau reducing learning rate to 4.0000001899898055e-05.
+
+Epoch 00054: ReduceLROnPlateau reducing learning rate to 8.000000525498762e-06.
+Epoch 00054: early stopping
+
+=== Fold 1 Results ===
+AUC:           0.9776
+Accuracy:      0.9254
+Precision:     0.9108
+Recall:        0.9433
+F1 (Macro):    0.9254
+
+--- Processing Fold 2/5 ---
+
+=== Fold 2/5 - EPI split ===
+Train samples: 248480, Test samples: 51536
+Overlapping TCRs: 2197
+Overlapping Epitopes: 0
+
+All experiments completed at Fri Dec 12 17:04:16 MST 2025
