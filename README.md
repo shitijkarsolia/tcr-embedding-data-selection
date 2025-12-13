@@ -87,6 +87,6 @@ project/
 ## Environment
 
 ### Hardware
-- GPU: Tesla V100-SXM2-16GB
+- GPU: Tesla V100-SXM2-16GB, NVIDIA A-100-80GB
 - CUDA: 11.2.2
 - cuDNN: 8.1.0.77
