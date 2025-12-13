@@ -1,1 +1,1 @@
-## Add the combined embedding file here
+Place embedding files (`.pkl`) here for binding prediction.

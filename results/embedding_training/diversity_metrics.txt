@@ -1,0 +1,10 @@
+Batch 1500, train_perplexity=3.700899
+Batch 1600, train_perplexity=3.6360106
+Batch 1700, train_perplexity=3.6865914
+Batch 1800, train_perplexity=3.7413957
+Batch 1900, train_perplexity=3.6011307
+Batch 2000, train_perplexity=3.592634
+Batch 2100, train_perplexity=3.6589897
+Batch 2200, train_perplexity=3.5556703
+Batch 2300, train_perplexity=3.5076783
+Batch 2400, train_perplexity=3.593732

@@ -1,0 +1,5 @@
+HDF5 Weights Info:
+File: diversity_10pct_weights.hdf5
+Size: 213 MB
+Purpose: Converted TensorFlow checkpoint for allennlp ElmoEmbedder
+Used in: Phase 3 embedding generation

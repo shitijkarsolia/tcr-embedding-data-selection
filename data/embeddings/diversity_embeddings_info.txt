@@ -1,0 +1,10 @@
+Shape: (300016, 5)
+Columns: ['epi', 'tcr', 'binding', 'tcr_embeds', 'epi_embeds']
+
+First 5 rows:
+          epi                 tcr  binding
+0  EAAGIGILTV          CASSLGNEQF        1
+1  EAAGIGILTV       CASSLGVATGELF        1
+2  EAAGIGILTV  CASSQEEGGGSWGNTIYF        1
+3  EAAGIGILTV     CASSQEGLAGASQYF        1
+4  EAAGIGILTV   CASSQETDIVFNOPQHF        1

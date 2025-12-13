@@ -1,0 +1,100 @@
+C A S S L V A T G N T G E L F F
+C A S S K G T V S G L S G
+C A S S P L E W E G P T E A F F
+C A I S E S D S Y N E Q F F
+C A S S P S Q R E G S E Q Y F
+C A S S Y P T S G R E F Y E Q Y F
+C A S S L W R S G T G G V E T Q Y F
+C A S S L V A L T N S Y N E Q F F
+C A S S P S T G D Q E T Q Y F
+C A S S S Q G F D E K L F F
+C A S S E A A A Y G Y T F
+C A S R R W P G G V G E T Q Y F
+C A S S F G G D T T Y E Q Y F
+C A S S E T T F R A F F
+C A S S F G Y E T Q Y F
+C A S S F N G R F S E A F F
+C A S S L L A G G P T G E L F F
+C A S S L T T V R S G N E Q F F
+C A S S L F G D E T D T Q Y F
+C A S S P R Q T R A T D T Q Y F
+C A T S A G D S Y E Q Y F
+C A S T W E G F G E Q Y F
+C A S S T P S V A V G T G E L F F
+C A S S L S D R G G Y E Q Y F
+C A S S S G V E T Q Y F
+C A W S V I S H E Q Y F
+C A S R V R D R G Y E Q Y F
+C A S S R G L A G G K T Y N E Q F F
+C A S S Y S W E N T G E L F F
+C A S S L T D R G G H E Q Y F
+C A S S H G V A S R T E A F F
+C A S S I Q G G T E A F F
+C A S S P I T A D T Q Y F
+C A S S S I S Y E Q Y F
+C A S S L A A S Y E Q Y F
+C S V D G P N T G E L F F
+C A S R T G T P Y E Q Y F
+C A S S P I A G D T T R Q Y F
+C A S S V A V A T Y E Q Y F
+C A S S D L A S A Y N E Q F F
+C A S S L A E G W E Q Y F
+C A N G Q G D E Q Y F
+C A S S Q E R T S G L A T D T Q Y F
+C A S S Q S E S S P S G N N E Q F F
+C S A L P S G A V I G T G E Q Y F
+C A S S P K D S P Y N E Q F F
+C A S S F Y S A N S P L H F
+C A S T S T L G G V T E A F F
+C A S T N R V T D T Q Y F
+C A S S H S T G R E Q Y F
+C A S R G T L G E Q Y F
+C A S T W T Q G W M E E T Q Y F
+C A T A T G S S N Q P Q H F
+C A S S E G Q G Y E Q Y F
+C A S S F G Q G Y E Q Y F
+C S V E D G G E H Y G Y T F
+C A S S L E A A Y E Q Y F
+C A S S P G E A G Y G Y T F
+C A S S L A T A Y E Q Y F
+C A S S F A G R S T D T Q Y F
+C A S S L Y V G G G A E D T Q Y F
+C A S S L E G T S G N E Q F F
+C S A T P A G A V N T D T Q Y F
+C A S S V G W G D Y E Q Y F
+C A S S L V R D N Y E Q Y F
+C A S S R G L A Y E Q Y F
+C A S S F G G G T Y E Q Y F
+C A S S L A G E T Y E Q Y F
+C A S S L A E S Y E Q Y F
+C A S T A W G N E K L F F
+C A S S L E A G Y G Y T F
+C A S S L L P D R G E K L F F
+C A S S V G Q S Y E Q Y F
+C A S S L L V G E T Q Y F
+C A S S E Y V G N T G E L F F
+C A S S L S T S G S I E T Q Y F
+C A S S H G E N E Q F F
+C A S S S G G G A I I E Q Y F
+C A S S E L A E M Y N E Q F F
+C A S S P A G V F G E Q Y F
+C A S S P D W S L T T Y G Y T F
+C A T S R A D G N Q P Q H F
+C A V A G E S T D T Q Y F
+C A W S V L D Y E Q Y F
+C A S E G Q V S Y E Q Y F
+C A S S S V G T T D T Q Y F
+C A W T T S G G G D E Q Y F
+C A V G A D T Q Y F
+C A I A E D G N S Y E Q Y F
+C A S S L S G W E T Q Y F
+C A S S G L A G D E Q Y F
+C A W T E R F A G G S Y E Q Y F
+C A T S D Y S G T G R E T Q Y F
+C A S S S P W S T D T Q Y F
+C A S S F P A G E R E Q F F
+C S A P G E V G Y N E Q F F
+C A T S D P V G A I S T D T Q Y F
+C A S S L I L V T G E L F F
+C A S S P A G T G A Y E Q Y F
+C A S S L T G Q T D T Q Y F
