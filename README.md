@@ -6,6 +6,12 @@ Training TCR embeddings using catELMo with only 10% of data. Testing whether sma
 
 ---
 
+## Model weights
+
+Download all model weights here: [Dropbox link](https://www.dropbox.com/scl/fo/5oxts5ek72jvczr3ej8d2/AAPdShWGaLy8NdR1WFVMACs?rlkey=ap0j8d3dt14gti7u6m6rkaqxs&e=3&st=mw0vxlxa&dl=0)
+
+---
+
 ## Structure
 
 ```
