@@ -2,6 +2,12 @@
 
 This document details the optimizations and functional changes applied to the original `catELMo` training script. The goal of these modifications was to transition from a single-run script to a robust, high-performance 5-fold cross-validation framework capable of handling large datasets (300k+ samples).
 
+## 0. Prerequisite: Model Weights
+
+Before running the code, you must download the pre-trained model weights.
+* **Download Link:** [BAP Model Weights (Dropbox)](https://www.dropbox.com/scl/fo/5oxts5ek72jvczr3ej8d2/AAPdShWGaLy8NdR1WFVMACs?rlkey=ap0j8d3dt14gti7u6m6rkaqxs&e=3&st=mw0vxlxa&dl=0)
+* **Instructions:** Download the files and place them in your project directory (e.g., inside a `weights/` folder) so the script can access them.
+
 ## 1. Critical Performance Optimizations
 
 ### GPU Acceleration (10x - 20x Speedup)
