@@ -9,15 +9,11 @@ from bilm.data import BidirectionalLMDataset
 
 
 def main(args):
-    # load the vocab
     vocab = load_vocab(args.vocab_file, 50)
 
-    # define the options
-    batch_size = 256  # batch size for each GPU (increased for speed)
+    batch_size = 256
     n_gpus = 1
-
-    # number of tokens in training data
-    n_train_tokens = 6181975  # Exact token count for 10% length-stratified dataset
+    n_train_tokens = 6181975
 
 
     options = {
@@ -42,15 +38,14 @@ def main(args):
     
      'lstm': {
       'cell_clip': 3,
-      'dim': 2048,        # Reduced from 4096 for speed
-      'n_layers': 2,      # Reduced from 4 for speed
+      'dim': 2048,
+      'n_layers': 2,
       'proj_clip': 3,
-      'projection_dim': 512, # Reduced from 1024 for speed
+      'projection_dim': 512,
       'use_skip_connections': True},
     
      'all_clip_norm_val': 10.0,
-    
-     'n_epochs': 2, # Reduced from 10 for speed
+     'n_epochs': 2,
      'n_train_tokens': n_train_tokens,
      'batch_size': batch_size,
      'n_tokens_vocab': 23,

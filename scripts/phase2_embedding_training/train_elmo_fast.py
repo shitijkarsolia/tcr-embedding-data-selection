@@ -9,26 +9,18 @@ from bilm.data import BidirectionalLMDataset
 
 
 def main(args):
-    # load the vocab
     vocab = load_vocab(args.vocab_file, 50)
 
-    # define the options
-    batch_size = 256  # batch size for each GPU (increased for speed)
-    # batch_size = 64
+    batch_size = 256
     n_gpus = 1
-
-    # number of tokens in training data (this for 1B Word Benchmark)
-    # n_train_tokens = 262996448 # 85% of full data has this number of tokens, 20M
-    n_train_tokens = 6181479  # Exact token count for 10% diversity dataset
-    # n_train_tokens = 535997 # PIRD dataset
+    n_train_tokens = 6181479
 
 
     options = {
      'bidirectional': True,
-     #'bidirectional': False,
 
      'char_cnn': {'activation': 'relu',
-      'embedding': {'dim': 16}, #it was 16 for catELMo 4 layer and 8 layer when embedding size is 1024.
+      'embedding': {'dim': 16},
       'filters': [
        [1, 32],
        [2, 32],

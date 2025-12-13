@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-"""
-Generate embeddings for TCR and epitope sequences using trained catELMo models.
-This script embeds sequences from the binding dataset for downstream prediction tasks.
-"""
 
 import pandas as pd
 import torch
@@ -13,24 +9,8 @@ from tqdm import tqdm
 import sys
 
 def catELMo_embedding(sequence, embedder):
-    """
-    Generate catELMo embedding for a single sequence.
-    
-    Args:
-        sequence: Amino acid sequence string
-        embedder: ElmoEmbedder instance
-    
-    Returns:
-        List of floats representing the embedding
-    """
-    # Convert sequence to list of characters
     seq_list = list(sequence)
-    
-    # Get embeddings: shape is (num_layers, seq_len, embedding_dim)
     embeddings = embedder.embed_sentence(seq_list)
-    
-    # Average across layers (dim 0) and sequence positions (dim 1)
-    # This gives a fixed-size vector per sequence
     embedding_tensor = torch.tensor(embeddings).sum(dim=0).mean(dim=0)
     
     return embedding_tensor.tolist()
