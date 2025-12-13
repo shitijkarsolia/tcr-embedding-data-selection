@@ -1,8 +1,8 @@
 # TCR Embedding with Data Selection
 
-Training TCR embeddings using catELMo with only 10% of data. Testing whether smart data selection (diversity, length-stratified) works as well as random sampling.
+Training TCR embeddings using catELMo with only 10% of data. Testing whether smart data selection (diversity, length-stratified) works better than random sampling.
 
-**Main question:** Can we use less data and still get good embeddings for TCR-epitope binding prediction?
+**Main question:** How can we use less data and still get good embeddings for TCR-epitope binding prediction?
 
 ---
 
@@ -20,10 +20,10 @@ docs/          Phase-specific documentation
 
 ## Workflow
 
-1. **Data Prep** → Select 10% subsets using different strategies
-2. **Train Embeddings** → Train catELMo on each subset
-3. **Generate Embeddings** → Extract embeddings for binding pairs
-4. **Binding Prediction** → 5-fold CV to evaluate performance
+1. **Data Prep** → Select 10% subsets using three data selection strategies.
+2. **Train Embeddings** → Train catELMo on each data subset and identify preferred subset.
+3. **Generate Embeddings** → Extract embeddings for use in Binding Affinity Prediction.
+4. **Binding Prediction** → Improved customized binding affinity prediction code to perform 5-fold cross validation, 5 times for each of TCR split and Epitope split, to evaluate performance in a more efficient and thorough manner.
 
 ---
 
