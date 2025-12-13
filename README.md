@@ -37,10 +37,12 @@ docs/          Phase-specific documentation
 
 **Embedding Training**
 - Diversity: 2 epochs, perplexity 3.59
-- Random: pending
-- Length-stratified: pending
+- Random: 2 epochs, perplexity 3.71
+- Length-stratified: 2 epochs, perplexity 3.68
 
-**Binding Prediction** (pending)
+**Binding Prediction** 
+- Mean of AUC, accuracy, f1-macro, precision, recall
+- Standard deviation of AUC, accuracy, f1-macro, precision, recall
 
 ## Environment
 
