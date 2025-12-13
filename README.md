@@ -38,5 +38,5 @@ docs/          Phase-specific documentation
 
 ## Environment
 
-GPU: Tesla V100 / A100  
+GPU: Tesla V100 / NVIDIA A100  
 CUDA 11.2, cuDNN 8.1, TensorFlow 2.6
